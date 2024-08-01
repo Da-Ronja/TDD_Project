@@ -10,11 +10,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import static org.junit.jupiter.api.Assertions.*;
 
 
-/*
-    Mats 31
-    Ronja 27
-    Ronja 0
-*/
 @Disabled
 class PlayerControllerTest {
 
