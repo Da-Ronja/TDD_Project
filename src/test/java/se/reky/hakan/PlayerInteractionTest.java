@@ -33,5 +33,15 @@ class PlayerInteractionTest {
         assertEquals("Ronja", player.getName());
     }
 
+    @Test
+    @DisplayName("Test player health update")
+    public void testPlayerHealthUpdate() {
+        // Arrange
+        PlayerInteraction playerInteraction = createPlayerInteraction("Ronja");
+        // Act
+        playerInteraction.updatePlayerHealth(player, 15);
+        // Assert
+        assertEquals(15, player.getHp());
+    }
 
 }
